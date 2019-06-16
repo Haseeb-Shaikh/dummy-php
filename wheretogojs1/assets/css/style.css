@@ -1,0 +1,240 @@
+body{
+	font-family: Arial, Helvetica, sans-serif !important;
+	background-color:#D3D3D3 !important;
+}
+.custom-navbar{
+	background-color: #545353;
+}
+.custom-logo{
+	width: 50px;
+	border-radius: 10%;
+}
+.logo{
+	padding-top: 15px;
+	font-family: Algerian; 
+	transition: .5s;
+}
+.logo:hover{
+	font-size: 40px;
+	font-family: Algerian; 
+}
+.nav-item > a{
+	color: white !important;
+	transition: .5s;
+}
+.nav-item > a:hover{
+	color: white !important;
+	font-weight: bold;
+	font-size: 16px !important;
+	margin-top: -5px;
+}
+.carousel-item > img{
+	height: 400px;
+}
+.btn-right{
+	font-size: 30px;
+	margin-right: 100px;
+	background-color: black;
+	border-radius: 50%;
+}
+.btn-left{
+	font-size: 30px;
+	margin-left: 100px;
+	background-color: black;
+	border-radius: 50%;
+}
+@media only screen and (max-width: 600px){
+	.carousel-item > img{
+		height: 200px;}	
+	.caption-text{
+	text-align: center;
+	background-color: black;
+	color: white;
+	opacity: .6;
+	font-size: 12px;
+	width: 100%;
+	margin-left: 0px !important;
+	margin-bottom: 0px !important;
+	}
+	.btn-right{
+	font-size: 20px;
+	padding-right: 100px;
+
+	}
+	.btn-left{
+	font-size: 20px;
+	padding-left: 100px;
+	}
+
+}
+.caption-text{
+	text-align: center;
+	background-color: black;
+	color: white;
+	opacity: .6;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.text-center{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.para{
+	margin-right: 10%;
+	margin-top: 20px;
+	margin-left: 10%;
+}
+.custom-img{
+	width: 100%;
+	height: 300px !important;
+	border-radius: 10%;
+}
+.custom{
+	background-color: #C4C4C4;
+}
+.custom-gallery-img{
+	width: 100%;
+	height: 190px !important;
+	border-radius: 20%;
+	margin-bottom:20px; 
+}
+@media only screen and (max-width: 600px){
+	.custom-gallery-img{
+		width: 100%;
+		height: 120px !important;
+		border-radius: 20%;
+		margin-bottom:20px; 
+	}	
+}
+
+.content{
+	background-color: #959595;
+}
+.custom-team >img{
+	width: 200px;
+	height: 150px;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.footer{
+	background-color: #BFBFBF; 
+	padding: 20px;
+}
+.footer ul.unstyle-list{
+	list-style-type: none;
+	padding-top: 65px;
+}
+.footer ul.unstyle-list > h3{
+	color:white;
+}
+.footer ul.unstyle-list > li > a {
+	text-decoration: none;
+	color:white !important;
+	display: inline;
+	transition: .5s;
+}
+.footer ul.unstyle-list > li > a:hover {
+	margin-left:5px;
+	color: black !important; 
+}
+.footer h3.logo-text{
+	display: inline;
+	color:white;
+	padding-left: 10px;
+}
+.footer-para{
+	color:white;
+}
+.footer a.copyright-link{
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+	transition: .5s;
+}
+.footer div.social-icons > ul >  li > a > i{
+	font-size: 25px;
+	color:white ;
+	transition: .5s;
+	padding:10px;
+}
+.footer div.social-icons > ul >  li > a > i.fb:hover{
+	font-size: 30px;
+	margin-top: -10px;
+	background-color: #5271b3;
+	color:white;
+	border-radius: 50px;
+}
+.footer div.social-icons > ul >  li > a > i.tw:hover{
+	font-size: 30px;
+	margin-top: -10px;
+	background-color: white;
+	color:#269AFF;
+	border-radius: 50px;
+}
+.footer div.social-icons > ul >  li > a > i.ln:hover{
+	font-size: 30px;
+	margin-top: -10px;
+	background-color: #3FA6FF;
+	color:white;
+	border-radius: 50px;
+}
+.footer div.social-icons > ul >  li > a > i.g:hover{
+	font-size: 30px;
+	margin-top: -10px;
+	background-color: #FF4B4B;
+	color:white;
+	border-radius: 50px;
+}
+.footer div.social-icons > ul >  li > a > i.yt:hover{
+	font-size: 30px;
+	margin-top: -10px;
+	background-color:red;
+	color:white;
+	border-radius: 50px;
+}
+@media only screen and (max-width: 600px){
+	.footer div.social-icons > ul >  li > a > i{
+	font-size: 15px;
+	color:white;
+	transition: .5s;
+	padding:10px;
+	}
+	.footer div.social-icons > ul >  li > a > i.fb{
+		font-size: 15px;
+		margin-top: -10px;
+		background-color: #5271b3;
+		color:white;
+		border-radius: 50px;
+	}
+	.footer div.social-icons > ul >  li > a > i.tw{
+		font-size: 15px;
+		margin-top: -10px;
+		background-color: white;
+		color:#269AFF;
+		border-radius: 50px;
+	}
+	.footer div.social-icons > ul >  li > a > i.ln{
+		font-size: 15px;
+		margin-top: -10px;
+		background-color: #3FA6FF;
+		color:white;
+		border-radius: 50px;
+	}
+	.footer div.social-icons > ul >  li > a > i.g{
+		font-size: 15px;
+		margin-top: -10px;
+		background-color: #FF4B4B;
+		color:white;
+		border-radius: 50px;
+	}
+	.footer div.social-icons > ul >  li > a > i.yt{
+		font-size: 15px;
+		margin-top: -10px;
+		background-color:red;
+		color:white;
+		border-radius: 50px;
+	}
+}
