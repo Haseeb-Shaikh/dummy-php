@@ -1,0 +1,57 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/bg.jpg);
+}
+.main{
+	color: white;
+	background-color: black;
+	opacity: 0.9;
+	border-radius: 20px;
+}
+.button-btn{
+	border-radius:0px;
+	margin-left: 190px;
+	background-color: black;
+	color: white;
+	opacity: 1;
+}
+.button-btn1{
+	border-radius:0px;
+	margin-left: 150px;
+	background-color: black;
+	color: white;
+}
+.custom{
+	margin-top: 80px; 
+}
+img{
+	width: 30%;
+	border-radius: 50%;
+}
+p > a{
+	color: white !important;
+	background-color: black;
+	border: 1 solid black !important;
+
+}
+div.social-icons > ul >  li > a > i{
+	font-size: 25px;
+	color: white;
+	transition: .5s;
+	padding: 10px;
+}
+ div.social-icons > ul >  li > a > i.fb:hover{
+	font-size: 30px;
+	margin-top: -10px;
+	background-color:#5271b3;
+	color:white;
+	border-radius: 50%;
+}
+div.social-icons > ul >  li > a > i.g:hover{
+	font-size: 30px;
+	margin-top: -10px;
+	background-color:#5DBCD2;
+	color:white;
+	border-radius: 50%;
+}
